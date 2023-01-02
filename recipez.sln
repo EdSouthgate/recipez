@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipEz", "recipez\RecipEz.csproj", "{F16476E1-9112-4B9D-97C6-457F6BC21846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipEz.test", "RecipEz.test\RecipEz.test.csproj", "{787D991C-936F-42E4-85BC-B39938661839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipEz.test", "RecipEz.test\RecipEz.test.csproj", "{787D991C-936F-42E4-85BC-B39938661839}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
