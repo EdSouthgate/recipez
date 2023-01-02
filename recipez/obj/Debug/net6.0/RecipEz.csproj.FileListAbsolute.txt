@@ -1,0 +1,15 @@
+C:\Users\edsou\stash\recipez\recipez\bin\Debug\net6.0\RecipEz.exe
+C:\Users\edsou\stash\recipez\recipez\bin\Debug\net6.0\RecipEz.deps.json
+C:\Users\edsou\stash\recipez\recipez\bin\Debug\net6.0\RecipEz.runtimeconfig.json
+C:\Users\edsou\stash\recipez\recipez\bin\Debug\net6.0\RecipEz.dll
+C:\Users\edsou\stash\recipez\recipez\bin\Debug\net6.0\RecipEz.pdb
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEz.csproj.AssemblyReference.cache
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEz.AssemblyInfoInputs.cache
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEz.AssemblyInfo.cs
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEz.csproj.CoreCompileInputs.cache
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEz.dll
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\refint\RecipEz.dll
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEz.pdb
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEz.genruntimeconfig.cache
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\ref\RecipEz.dll
