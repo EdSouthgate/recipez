@@ -14,5 +14,12 @@ namespace RecipEz.test
             Assert.AreEqual(user.first, "First");
             Assert.AreEqual(user.last, "Last");
         }
+
+        [Test]
+        public void ShouldHaveAnEmail()
+        {
+            User user = new User("First", "Last", "firstlast@example.com");
+            Assert.AreEqual(user.email, "firstlast@example.com");
+        }
     }
 }
