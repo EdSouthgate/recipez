@@ -8,20 +8,26 @@ namespace RecipEz
 {
     public class User
     {
-        public string first { get; private set; }
-        public string last { get; private set; }
+        public string FirstName { get; private set; }
+        public string LastName { get; private set; }
+        public string Email { get; private set; }
+        public string Description { get; private set; }
 
-        public string email { get; private set; }
         public User(string firstName, string lastName)
         {
-            first = firstName;
-            last = lastName;
+            FirstName = firstName;
+            LastName = lastName;
         }
 
         public User(string firstName, string lastName, string emailAddress) {
-            first = firstName;
-            last = lastName;
-            email = emailAddress;
+            FirstName = firstName;
+            LastName = lastName;
+            Email = emailAddress;
+        }
+
+        public void SetDescription(string description)
+        {
+            Description = description;
         }
     }
 }
