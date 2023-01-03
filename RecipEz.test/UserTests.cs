@@ -14,8 +14,8 @@ namespace RecipEz.test
             User user = new User("First", "Last");
             // Act 
             // Assert
-            Assert.AreEqual(user.FirstName, "First");
-            Assert.AreEqual(user.LastName, "Last");
+            Assert.That("First", Is.EqualTo(user.FirstName));
+            Assert.That("Last", Is.EqualTo(user.LastName));
         }
 
         [Test]
@@ -25,7 +25,7 @@ namespace RecipEz.test
             User user = new User("First", "Last", "firstlast@example.com");
             // Act 
             // Assert
-            Assert.AreEqual(user.Email, "firstlast@example.com");
+            Assert.That("firstlast@example.com", Is.EqualTo(user.Email));
         }
 
         [Test]
@@ -36,7 +36,7 @@ namespace RecipEz.test
             // Act 
             user.SetDescription("A fun loving dev from Colchester");
             // Assert 
-            Assert.AreEqual(user.Description, "A fun loving dev from Colchester");
+            Assert.That(user.Description, Is.EqualTo("A fun loving dev from Colchester"));
         }
     }
 }
