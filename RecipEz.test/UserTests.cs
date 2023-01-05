@@ -14,8 +14,8 @@ namespace RecipEz.test
             User user = new User("First", "Last");
             // Act 
             // Assert
-            Assert.That("First", Is.EqualTo(user.FirstName));
-            Assert.That("Last", Is.EqualTo(user.LastName));
+            Assert.That(user.FirstName, Is.EqualTo("First"));
+            Assert.That(user.LastName, Is.EqualTo("Last"));
         }
 
         [Test]
