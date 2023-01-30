@@ -38,5 +38,28 @@ namespace RecipEz.test
             // Assert 
             Assert.That(user.Description, Is.EqualTo("A fun loving dev from Colchester"));
         }
+
+        [Test]
+        public void ShouldHaveASetPasswordFunction()
+        {
+            // Arrange
+            User user = new User("First", "Last", "firstlast@example.com");
+            // Act 
+            user.SetPassword("mysecretpassword");
+            // Assert
+            Assert.That(user.VerifyPassword("mysecretpassword"), Is.True);
+        }
+
+        [Test]
+        public void VerifyPasswordShouldFailWhenPasswordIsIncorrect()
+        {
+
+            // Arrange
+            User user = new User("First", "Last", "firstlast@example.com");
+            // Act 
+            user.SetPassword("mysecretpassword");
+            // Assert
+            Assert.That(user.VerifyPassword("incorrect"), Is.False);
+        }
     }
 }
