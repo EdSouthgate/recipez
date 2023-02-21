@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipEz", "recipez\RecipEz.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipEz.test", "RecipEz.test\RecipEz.test.csproj", "{787D991C-936F-42E4-85BC-B39938661839}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RecipezDataBase", "RecipezDataBase\RecipezDataBase.sqlproj", "{E009F2E9-F70D-4402-95FE-82947F9F83A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{787D991C-936F-42E4-85BC-B39938661839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787D991C-936F-42E4-85BC-B39938661839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787D991C-936F-42E4-85BC-B39938661839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E009F2E9-F70D-4402-95FE-82947F9F83A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E009F2E9-F70D-4402-95FE-82947F9F83A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E009F2E9-F70D-4402-95FE-82947F9F83A8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E009F2E9-F70D-4402-95FE-82947F9F83A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E009F2E9-F70D-4402-95FE-82947F9F83A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E009F2E9-F70D-4402-95FE-82947F9F83A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

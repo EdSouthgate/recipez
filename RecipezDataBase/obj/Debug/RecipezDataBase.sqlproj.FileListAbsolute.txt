@@ -1,0 +1,10 @@
+C:\Users\edsou\stash\recipez\RecipezDataBase\bin\Debug\RecipezDataBase.dacpac
+C:\Users\edsou\stash\recipez\RecipezDataBase\bin\Debug\RecipezDataBase.dll
+C:\Users\edsou\stash\recipez\RecipezDataBase\bin\Debug\RecipezDataBase.pdb
+C:\Users\edsou\stash\recipez\RecipezDataBase\obj\Debug\RecipezDataBase.sqlproj.AssemblyReference.cache
+C:\Users\edsou\stash\recipez\RecipezDataBase\obj\Debug\Model.xml
+C:\Users\edsou\stash\recipez\RecipezDataBase\obj\Debug\refactor.xml
+C:\Users\edsou\stash\recipez\RecipezDataBase\obj\Debug\postdeploy.sql
+C:\Users\edsou\stash\recipez\RecipezDataBase\obj\Debug\predeploy.sql
+C:\Users\edsou\stash\recipez\RecipezDataBase\obj\Debug\RecipezDataBase.dll
+C:\Users\edsou\stash\recipez\RecipezDataBase\obj\Debug\RecipezDataBase.pdb
