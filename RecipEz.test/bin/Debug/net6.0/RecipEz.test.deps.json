@@ -12,7 +12,7 @@
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
           "NUnit3TestAdapter": "4.2.1",
-          "RecipEz": "1.0.0",
+          "RecipEzDomain": "1.0.0",
           "coverlet.collector": "3.1.2"
         },
         "runtime": {
@@ -653,9 +653,9 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
-      "RecipEz/1.0.0": {
+      "RecipEzDomain/1.0.0": {
         "runtime": {
-          "RecipEz.dll": {}
+          "RecipEzDomain.dll": {}
         }
       }
     }
@@ -995,7 +995,7 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
-    "RecipEz/1.0.0": {
+    "RecipEzDomain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

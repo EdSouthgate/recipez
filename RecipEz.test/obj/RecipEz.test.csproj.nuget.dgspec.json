@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEz.csproj": {
-                "projectPath": "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEz.csproj"
+              "C:\\Users\\edsou\\stash\\recipez\\RecipEzDomain\\RecipEzDomain.csproj": {
+                "projectPath": "C:\\Users\\edsou\\stash\\recipez\\RecipEzDomain\\RecipEzDomain.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEz.csproj": {
+    "C:\\Users\\edsou\\stash\\recipez\\RecipEzDomain\\RecipEzDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEz.csproj",
-        "projectName": "RecipEz",
-        "projectPath": "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEz.csproj",
+        "projectUniqueName": "C:\\Users\\edsou\\stash\\recipez\\RecipEzDomain\\RecipEzDomain.csproj",
+        "projectName": "RecipEzDomain",
+        "projectPath": "C:\\Users\\edsou\\stash\\recipez\\RecipEzDomain\\RecipEzDomain.csproj",
         "packagesPath": "C:\\Users\\edsou\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edsou\\stash\\recipez\\recipez\\obj\\",
+        "outputPath": "C:\\Users\\edsou\\stash\\recipez\\RecipEzDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edsou\\AppData\\Roaming\\NuGet\\NuGet.Config",

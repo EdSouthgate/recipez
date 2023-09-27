@@ -1,8 +1,5 @@
 C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\CoverletSourceRootsMapping
 C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\testhost.dll
-C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\RecipEz.deps.json
-C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\RecipEz.runtimeconfig.json
-C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\RecipEz.exe
 C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\testhost.exe
 C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\NUnit3.TestAdapter.dll
 C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
@@ -90,8 +87,8 @@ C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\zh-Hans\Microsoft.Vis
 C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\RecipEz.dll
-C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\RecipEz.pdb
+C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\RecipEzDomain.dll
+C:\Users\edsou\stash\recipez\RecipEz.test\bin\Debug\net6.0\RecipEzDomain.pdb
 C:\Users\edsou\stash\recipez\RecipEz.test\obj\Debug\net6.0\RecipEz.test.csproj.AssemblyReference.cache
 C:\Users\edsou\stash\recipez\RecipEz.test\obj\Debug\net6.0\RecipEz.test.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\edsou\stash\recipez\RecipEz.test\obj\Debug\net6.0\RecipEz.test.AssemblyInfoInputs.cache

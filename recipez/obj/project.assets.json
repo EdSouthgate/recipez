@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEz.csproj",
-      "projectName": "RecipEz",
-      "projectPath": "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEz.csproj",
+      "projectUniqueName": "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEzDomainOld.csproj",
+      "projectName": "RecipEzDomainOld",
+      "projectPath": "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEzDomainOld.csproj",
       "packagesPath": "C:\\Users\\edsou\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\edsou\\stash\\recipez\\recipez\\obj\\",
       "projectStyle": "PackageReference",

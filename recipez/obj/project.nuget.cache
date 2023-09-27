@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KJFZQxhIsHy51NGipdnNeATaGNJi/yNccFuFV5qgqTvDPfTl2RsV5l1vgj9IFhxaF0cnkvU7FHZnDWfTs8xFqg==",
+  "dgSpecHash": "cbT6eHlovE6YztJBhM50+hGQSUzVRkmjTPTCgk4uVgDc9D+aNPe/cSiWeuE3TfIQOqsGkC38ZTslUSdmQlufmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEz.csproj",
+  "projectFilePath": "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEzDomainOld.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,11 @@
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEzDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEzDomain.AssemblyInfoInputs.cache
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEzDomain.AssemblyInfo.cs
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEzDomain.csproj.CoreCompileInputs.cache
+C:\Users\edsou\stash\recipez\recipez\bin\Debug\net6.0\RecipEzDomain.deps.json
+C:\Users\edsou\stash\recipez\recipez\bin\Debug\net6.0\RecipEzDomain.dll
+C:\Users\edsou\stash\recipez\recipez\bin\Debug\net6.0\RecipEzDomain.pdb
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEzDomain.dll
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\refint\RecipEzDomain.dll
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\RecipEzDomain.pdb
+C:\Users\edsou\stash\recipez\recipez\obj\Debug\net6.0\ref\RecipEzDomain.dll

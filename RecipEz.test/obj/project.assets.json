@@ -974,14 +974,14 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "RecipEz/1.0.0": {
+      "RecipEzDomain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/RecipEz.dll": {}
+          "bin/placeholder/RecipEzDomain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/RecipEz.dll": {}
+          "bin/placeholder/RecipEzDomain.dll": {}
         }
       }
     }
@@ -3956,10 +3956,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "RecipEz/1.0.0": {
+    "RecipEzDomain/1.0.0": {
       "type": "project",
-      "path": "../recipez/RecipEz.csproj",
-      "msbuildProject": "../recipez/RecipEz.csproj"
+      "path": "../RecipEzDomain/RecipEzDomain.csproj",
+      "msbuildProject": "../RecipEzDomain/RecipEzDomain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3968,7 +3968,7 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
-      "RecipEz >= 1.0.0",
+      "RecipEzDomain >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -3999,8 +3999,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEz.csproj": {
-              "projectPath": "C:\\Users\\edsou\\stash\\recipez\\recipez\\RecipEz.csproj"
+            "C:\\Users\\edsou\\stash\\recipez\\RecipEzDomain\\RecipEzDomain.csproj": {
+              "projectPath": "C:\\Users\\edsou\\stash\\recipez\\RecipEzDomain\\RecipEzDomain.csproj"
             }
           }
         }

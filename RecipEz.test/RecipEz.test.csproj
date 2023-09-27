@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\recipez\RecipEz.csproj" />
+    <ProjectReference Include="..\RecipEzDomain\RecipEzDomain.csproj" />
   </ItemGroup>
 
 </Project>

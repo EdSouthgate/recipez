@@ -1,3 +1,5 @@
+using RecipEzDomain;
+
 namespace RecipEz.test
 {
     public class UserTests
@@ -24,7 +26,7 @@ namespace RecipEz.test
             var ex = Assert.Throws<InvalidOperationException>(() => new User("Fi", "Last"));
             // Act
             // Assert
-            Assert.AreEqual("First name must be at least 3 characters", ex.Message);
+            Assert.That(ex.Message, Is.EqualTo("First name must be at least 3 characters"));
         }
 
         [Test]
@@ -44,7 +46,7 @@ namespace RecipEz.test
             var ex = Assert.Throws<InvalidOperationException>(() => new User("First", "La"));
             // Act
             // Assert
-            Assert.AreEqual("Last name must be at least 3 characters", ex.Message);
+            Assert.That(ex.Message, Is.EqualTo("Last name must be at least 3 characters"));
         }
 
         [Test]
@@ -54,7 +56,7 @@ namespace RecipEz.test
             User user = new User("First", "Last", "firstlast@example.com");
             // Act 
             // Assert
-            Assert.That("firstlast@example.com", Is.EqualTo(user.Email.ToString()));
+            Assert.That(user.Email.ToString(), Is.EqualTo("firstlast@example.com"));
         }
 
         [Test]
