@@ -9,61 +9,22 @@ namespace RecipEz.test
         {
         }
 
-        [Test]
-        public void ShouldHaveAFirstName()
-        {
-            // Arrange
-            User user = new User("First", "Last");
-            // Act 
-            // Assert
-            Assert.That(user.FirstName, Is.EqualTo("First"));
-        }
-
-        [Test]
-        public void ShouldErrorWhenFirstNameIsLessThanThreeChars()
-        {
-            // Arrange
-            var ex = Assert.Throws<InvalidOperationException>(() => new User("Fi", "Last"));
-            // Act
-            // Assert
-            Assert.That(ex.Message, Is.EqualTo("First name must be at least 3 characters"));
-        }
-
-        [Test]
-        public void ShouldHaveALastName()
-        {
-            // Arrange
-            User user = new User("First", "Last");
-            // Act 
-            // Assert
-            Assert.That(user.LastName, Is.EqualTo("Last"));
-        }
-
-        [Test]
-        public void ShouldErrorWhenLastNameIsLessThanThreeChars()
-        {
-            // Arrange
-            var ex = Assert.Throws<InvalidOperationException>(() => new User("First", "La"));
-            // Act
-            // Assert
-            Assert.That(ex.Message, Is.EqualTo("Last name must be at least 3 characters"));
-        }
 
         [Test]
         public void ShouldHaveAnEmail()
         {
             // Arrange
-            User user = new User("First", "Last", "firstlast@example.com");
+            User user = new User("firstlast@example.com", "Mypassword123!");
             // Act 
             // Assert
-            Assert.That(user.Email.ToString(), Is.EqualTo("firstlast@example.com"));
+            Assert.That(user.Email, Is.EqualTo("firstlast@example.com"));
         }
 
         [Test]
         public void ShouldErrorIfEmailIsInvalid()
         {
             // Arrange
-            var ex = Assert.Throws<InvalidOperationException>(() => new User("First", "Last", "firstlastexample.com"));
+            var ex = Assert.Throws<InvalidOperationException>(() => new User("firstlastexample.com", "Mypassword123!"));
             // Act
             // Assert
             Assert.That(ex.Message, Is.EqualTo("Email address is not valid"));
@@ -73,41 +34,86 @@ namespace RecipEz.test
         public void ShouldHaveASetDescriptionFunction()
         {
             // Arrange 
-            User user = new User("First", "Last", "firstlast@example.com");
+            User user = new User("firstlast@example.com", "Mypassword123!");
             // Act 
             user.SetDescription("A fun loving dev from Colchester");
             // Assert 
             Assert.That(user.Description, Is.EqualTo("A fun loving dev from Colchester"));
         }
 
-        [Test]
-        public void ShouldHaveASetPasswordFunction()
-        {
-            // Arrange
-            User user = new User("First", "Last", "firstlast@example.com");
-            // Act 
-            user.SetPassword("mysecretpassword");
-            // Assert
-            Assert.That(user.VerifyPassword("mysecretpassword"), Is.True);
-        }
 
         [Test]
         public void VerifyPasswordShouldFailWhenPasswordIsIncorrect()
         {
 
             // Arrange
-            User user = new User("First", "Last", "firstlast@example.com");
-            // Act 
-            user.SetPassword("mysecretpassword");
+            User user = new User("firstlast@example.com", "Mysecretpassword123!");
+            //  Act
             // Assert
             Assert.That(user.VerifyPassword("incorrect"), Is.False);
+        }
+
+        [Test]
+        public void VerifyPasswordShouldPassWhenPasswordIsCorrect()
+        {
+            // Arrange
+            User user = new User("firstlast@example.com", "Password123!");
+            // Act
+            // Assert
+            Assert.That(user.VerifyPassword("Password123!"), Is.True);
+        }
+
+        [Test]
+        public void PasswordShouldBeAtLeast8Characters()
+        {
+            // Arrange
+            // Act
+            // Assert
+            var ex = Assert.Throws<InvalidOperationException>(() => new User("edsouthgate@example.com", "Sh0rt!"));
+        }
+
+        [Test]
+        public void PasswordsShouldHaveAtLeastOneCapitalLetter()
+        {
+            // Arrange
+            // Act
+            // Assert
+            var ex = Assert.Throws<InvalidOperationException>(() => new User("edsouthgate@example.com", "password"));
+        
+        }
+
+        [Test]
+        public void PasswordsShouldHaveAtLeastOneLowercaseLetter()
+        {
+            // Arrange
+            // Act
+            // Assert
+            var ex = Assert.Throws<InvalidOperationException>(() => new User("edsouthgate@example.com", "PASSWORD"));
+        }
+
+        [Test]
+        public void PasswordsShouldHaveAtLeastOneSpecialCharacter()
+        {
+            // Arrange
+            // Act
+            // Assert
+            var ex = Assert.Throws<InvalidOperationException>(() => new User("edsouthgate@example.com", "PASSword1"));
+        }
+
+        [Test]
+        public void PasswordsShouldHaveAtLeastOneNumber()
+        {
+            // Arrange
+            // Act
+            // Assert
+            var ex = Assert.Throws<InvalidOperationException>(() => new User("edsouthgate@example", "Password!"));
         }
 
         [Test]
         public void ShouldHaveRecipeList()
         {
             // Arrange
-            User user = new User("First", "Last", "firstlast@example.com");
+            User user = new User("firstlast@example.com", "Mypassword123!");
 
             // Act
             // Assert

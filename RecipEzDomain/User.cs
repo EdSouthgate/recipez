@@ -4,46 +4,36 @@ using System.Linq;
 using System.Net.Mail;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace RecipEzDomain
 {
     public class User
     {
-        public string FirstName { get; private set; }
-        public string LastName { get; private set; }
-        public MailAddress Email { get; private set; }
-        public string Description { get; private set; }
+        public string Id { get; set; }
+        public string? FirstName { get; private set; }
+        public string? LastName { get; private set; }
+        public string Email { get; private set; }
+        public string? Description { get; private set; }
         public List<Recipe> Recipes { get; private set; }
 
-        private SHA256 sha256 { get; set; }
+        private protected SHA256 sha256 { get; set; }
 
-        private string Password { get; set; }
+        private string? Password { get; set; }
 
-        public User(string firstName, string lastName)
+        public User(string emailAddress, string password)
         {
-            if (firstName.Count() < 3) { 
-                throw new InvalidOperationException("First name must be at least 3 characters");
-            }
-            if(lastName.Count() < 3)
-            {
-                throw new InvalidOperationException("Last name must be at least 3 characters");
-            }
-            FirstName = firstName;
-            LastName = lastName;
-        }
-
-        public User(string firstName, string lastName, string emailAddress) {
-            FirstName = firstName;
-            LastName = lastName;
-            try
-            {
-                Email = new MailAddress(emailAddress);
-            } catch (FormatException)
+            sha256 = SHA256.Create();
+            try { 
+                var tmp = new MailAddress(emailAddress);
+            } 
+            catch (FormatException)
             {
                 throw new InvalidOperationException("Email address is not valid");
             }
-            sha256 = SHA256.Create();
+            Email = emailAddress;
+            SetPassword(password);
             Recipes = new List<Recipe>();
         }
 
@@ -64,7 +54,15 @@ namespace RecipEzDomain
         }
 
         public void SetPassword(string password)
-        {      
+        {
+            if (password.Length < 8) { 
+                throw new InvalidOperationException("Password must be at least 8 characters long");
+            }
+            Regex regex = new Regex(@"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[\W_]).+$");
+            if (!regex.IsMatch(password))
+            {
+                throw new InvalidOperationException("Password must contain at least one uppercase letter, one lowercase letter, one special character and one number");
+            }
             Password = GetHashedstring(password);
         }
 
